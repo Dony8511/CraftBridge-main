@@ -1,0 +1,42 @@
+.center{
+    text-align: center;
+}
+
+
+
+.toCenter{
+    z-index: 5;
+    position: fixed;
+    margin: auto;
+    background: rgba(242, 204, 143, 0.4);
+    backdrop-filter: blur(15px);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    pointer-events: none;
+    transition: all .16s ease-in;
+
+    opacity: 0;
+}
+
+.PopUp{
+    background-color: var(--color-light);
+    border-radius: 25px;
+    width: 650px;
+    padding: 30px;
+    transform: scale(0);
+    transition: all .16s ease-in;
+}
+
+.toCenter.active{
+    pointer-events: all;
+    opacity: 1;
+}
+
+.PopUp.active{
+    transform: scale(1);
+}

@@ -1,0 +1,24 @@
+footer{
+    background-color: var(--color-dark);
+    padding: 40px 0;
+    color: var(--color-light);
+
+    width: 100%;
+
+}
+
+.copyright{
+    border-bottom: 2px solid var(--color-light);
+    padding-bottom: 10px;
+}
+
+.contactsList{
+    margin-top: 30px;
+    width: 100%;
+}
+
+ul{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}

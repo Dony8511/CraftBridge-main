@@ -1,0 +1,47 @@
+.btn{
+    /* font-family: 'Ysabeau', sans-serif; */
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+
+    padding: 4px 39px;
+    max-height: 30px;
+    /* position: relative; */
+    
+    /* display: block; */
+    border-radius: 90px;
+
+    transition: all .12s ease-in;
+  }
+
+.btn.red{
+    width: 100%;
+    background-color: var(--color-red);
+    color: var(--color-light);
+    border: 2px dashed var(--color-red);
+    
+}
+
+.btn.red:hover{
+    background-color: #ffffff00;
+    border: 2px dashed var(--color-red);
+    color: var(--color-red);
+}
+
+.btn.dark{
+    width: 100%;
+    background-color: var(--color-dark);
+    color: var(--color-light);
+    border: 2px dashed var(--color-dark);
+}
+
+.btn.dark:hover{
+    background-color: #ffffff00;
+    border: 2px dashed var(--color-dark);
+    color: var(--color-dark);
+}
